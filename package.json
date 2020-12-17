@@ -4,7 +4,7 @@
   "description": "Development",
   "main": "src/index.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --open chrome"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,12 @@
   },
   "homepage": "https://github.com/rogeliosamuel21/PaymentApp#readme",
   "dependencies": {
+    "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router": "^5.2.0",
-    "rect": "^1.2.1"
+    "react-router": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
