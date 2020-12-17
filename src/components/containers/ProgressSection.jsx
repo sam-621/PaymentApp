@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../style/container/ProgressSection.css';
 
 import { ProgressBar } from '../molecules/';
 
 const ProgressSection = () => {
   return (
-    <section>
+    <section className="ProgressSection">
       <ProgressBar isFirstFill={true} isSecondFill={true} isThirdFill={true} />
     </section>
   );
