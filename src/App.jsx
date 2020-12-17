@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Main, EnterData } from './components/pages';
 import './style/App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import { Main, EnterData, Success } from './components/pages';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/:planName" component={EnterData} />
+        <Route exact path="/:planName/success" component={Success} />
       </Switch>
     </BrowserRouter>
   );

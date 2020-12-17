@@ -38,24 +38,30 @@
   border: 1px solid #c4c4c4;
 }
 .PlanCard-Link-Primary {
+  display: flex;
+  justify-content: center;
+}
+.PlanCard-Link-Primary a {
+  text-decoration: none;
   background: #ffffff;
   border-radius: 5px;
   padding: 5px 20px;
   text-align: center;
-}
-.PlanCard-Link-Primary a {
-  text-decoration: none;
   color: #6f73df;
+  width: 100%;
 }
 .PlanCard-Link-Secondary {
+  display: flex;
+  justify-content: center;
+}
+.PlanCard-Link-Secondary a {
+  text-decoration: none;
   background: #6f73df;
   border-radius: 5px;
   padding: 5px 20px;
   text-align: center;
-}
-.PlanCard-Link-Secondary a {
-  text-decoration: none;
   color: white;
+  width: 100%;
 }
 
 .PlanCard-Primary-Cost {
