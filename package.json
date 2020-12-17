@@ -20,5 +20,24 @@
   "bugs": {
     "url": "https://github.com/rogeliosamuel21/PaymentApp/issues"
   },
-  "homepage": "https://github.com/rogeliosamuel21/PaymentApp#readme"
+  "homepage": "https://github.com/rogeliosamuel21/PaymentApp#readme",
+  "dependencies": {
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "rect": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "react-hot-loader": "^4.13.0",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
