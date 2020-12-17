@@ -6,7 +6,7 @@ const PlanCard = ({ Primary, Plan, Cost, Storage, AllowedUsers, SendUp }) => {
   return (
     <article className={Primary ? 'PlanCard-Primary' : 'PlanCard-Secondary'}>
       <h1>{Plan}</h1>
-      <h2 className="PlanCard-Primary-Cost">{Cost}</h2>
+      <h2 className="PlanCard-Primary-Cost">${Cost}</h2>
       <hr />
       <p>{Storage} Storage</p>
       <hr />
