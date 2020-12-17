@@ -1,0 +1,13 @@
+.ProgressText {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+.ProgressText p {
+  text-align: center;
+  margin: 0;
+  width: 63px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #70728d;
+}

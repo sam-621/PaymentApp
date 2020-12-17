@@ -1,12 +1,17 @@
 import React from 'react';
 import '../../style/container/ProgressSection.css';
 
-import { ProgressBar } from '../molecules/';
+import { ProgressBar, ProgressText } from '../molecules/';
 
-const ProgressSection = () => {
+const ProgressSection = ({ isFirstFill, isSecondFill, isThirdFill }) => {
   return (
     <section className="ProgressSection">
-      <ProgressBar isFirstFill={true} isSecondFill={true} isThirdFill={true} />
+      <ProgressBar
+        isFirstFill={isFirstFill}
+        isSecondFill={isSecondFill}
+        isThirdFill={isThirdFill}
+      />
+      <ProgressText />
     </section>
   );
 };

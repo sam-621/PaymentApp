@@ -1,3 +1,4 @@
 import ProgressBar from './ProgressBar';
+import ProgressText from './ProgressText';
 
-export { ProgressBar };
+export { ProgressBar, ProgressText };

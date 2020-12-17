@@ -3,8 +3,9 @@
 * Primary color: #6F73DF
 * Letter color: #70728D
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
   background-color: #efefff;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
