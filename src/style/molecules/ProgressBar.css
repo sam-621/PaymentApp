@@ -1,0 +1,23 @@
+.ProgressBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ProgressBar div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #c4c4c4;
+}
+.ProgressBar hr {
+  margin: 0;
+  width: 40%;
+  border: 1px solid #c4c4c4;
+}
+.Fill {
+  background-color: #6f73df !important;
+  border: none !important;
+}
+.BarFill {
+  border: 2px solid #6f73df !important;
+}
