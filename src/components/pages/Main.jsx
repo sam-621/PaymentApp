@@ -5,7 +5,7 @@ import { ProgressSection, Plans } from '../containers';
 const Main = () => {
   return (
     <>
-      <ProgressSection />
+      <ProgressSection isFirstFill={true} />
       <Plans />
     </>
   );

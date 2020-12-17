@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Main } from './components/pages';
+import { Main, EnterData } from './components/pages';
 import './style/App.css';
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Main} />
+        <Route exact path="/data" component={EnterData} />
       </Switch>
     </BrowserRouter>
   );

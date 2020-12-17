@@ -19,7 +19,7 @@ const PlanCard = ({ Primary, Plan, Cost, Storage, AllowedUsers, SendUp }) => {
           Primary ? 'PlanCard-Link-Primary' : 'PlanCard-Link-Secondary'
         }
       >
-        <Link to="/">Buy</Link>
+        <Link to="/data">Buy</Link>
       </div>
     </article>
   );
