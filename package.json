@@ -1,0 +1,24 @@
+{
+  "name": "paymentapp",
+  "version": "0.0.0",
+  "description": "Development",
+  "main": "src/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeliosamuel21/PaymentApp.git"
+  },
+  "keywords": [
+    "Frontend",
+    "React.js",
+    "Webpack"
+  ],
+  "author": "Rogelio Samuel <@rogeliosamuel621>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogeliosamuel21/PaymentApp/issues"
+  },
+  "homepage": "https://github.com/rogeliosamuel21/PaymentApp#readme"
+}
