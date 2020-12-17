@@ -5,7 +5,7 @@ import { ProgressBar } from '../molecules/';
 const ProgressSection = () => {
   return (
     <section>
-      <ProgressBar />
+      <ProgressBar isFirstFill={true} isSecondFill={true} isThirdFill={true} />
     </section>
   );
 };
