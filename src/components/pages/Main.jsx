@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { ProgressSection } from '../containers';
+import { ProgressSection, Plans } from '../containers';
 
 const Main = () => {
   return (
     <>
       <ProgressSection />
+      <Plans />
     </>
   );
 };

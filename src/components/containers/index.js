@@ -1,4 +1,4 @@
 import ProgressSection from './ProgressSection';
-import PlanCard from './PlanCard';
+import Plans from './Plans';
 
-export { ProgressSection, PlanCard };
+export { ProgressSection, Plans };

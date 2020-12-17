@@ -1,0 +1,63 @@
+.PlanCard-Primary {
+  display: grid;
+  grid-gap: 15px;
+  border-radius: 5px;
+  background-color: #6f73df;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 10px;
+}
+.PlanCard-Primary h1,
+.PlanCard-Primary h2,
+.PlanCard-Primary p {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+.PlanCard-Primary hr {
+  margin: 0;
+  border: 1px solid #c4c4c4;
+}
+
+.PlanCard-Secondary {
+  display: grid;
+  grid-gap: 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+.PlanCard-Secondary h1,
+.PlanCard-Secondary h2,
+.PlanCard-Secondary p {
+  color: #70728d;
+  margin: 0;
+  text-align: center;
+}
+.PlanCard-Secondary hr {
+  margin: 0;
+  border: 1px solid #c4c4c4;
+}
+.PlanCard-Link-Primary {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+}
+.PlanCard-Link-Primary a {
+  text-decoration: none;
+  color: #6f73df;
+}
+.PlanCard-Link-Secondary {
+  background: #6f73df;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+}
+.PlanCard-Link-Secondary a {
+  text-decoration: none;
+  color: white;
+}
+
+.PlanCard-Primary-Cost {
+  font-size: 48px;
+}

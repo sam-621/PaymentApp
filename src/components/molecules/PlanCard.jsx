@@ -1,11 +1,12 @@
 import React from 'react';
+import '../../style/molecules/PlanCard.css';
 import { Link } from 'react-router-dom';
 
 const PlanCard = ({ Primary, Plan, Cost, Storage, AllowedUsers, SendUp }) => {
   return (
-    <article className={Primary ? 'planCard-Primary' : 'PlanCard-Secondary'}>
+    <article className={Primary ? 'PlanCard-Primary' : 'PlanCard-Secondary'}>
       <h1>{Plan}</h1>
-      <h2>{Cost}</h2>
+      <h2 className="PlanCard-Primary-Cost">{Cost}</h2>
       <hr />
       <p>{Storage} Storage</p>
       <hr />
@@ -13,8 +14,12 @@ const PlanCard = ({ Primary, Plan, Cost, Storage, AllowedUsers, SendUp }) => {
       <hr />
       <p>Send up to{SendUp}</p>
       <hr />
-      <div>
-        <Link>Buy</Link>
+      <div
+        className={
+          Primary ? 'PlanCard-Link-Primary' : 'PlanCard-Link-Secondary'
+        }
+      >
+        <Link to="/">Buy</Link>
       </div>
     </article>
   );
