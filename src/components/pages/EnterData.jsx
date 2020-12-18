@@ -14,7 +14,7 @@ const EnterData = () => {
       <ProgressSection isFirstFill={true} isSecondFill={true} />
       <main className="EnterData-main">
         <PlanInfo plan={plan[0].plan} price={plan[0].price} />
-        <Payment amount={plan[0].price} />
+        <Payment amount={plan[0].price} planName={planName} />
       </main>
     </>
   );
