@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Main, EnterData, Success } from './components/pages';
 
 const App = () => {
+  console.log(process.env.CLIENTID_PROD);
   return (
     <BrowserRouter>
       <Switch>
