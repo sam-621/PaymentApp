@@ -3,7 +3,10 @@ import '../../style/container/Payment.css';
 import { PayPalButton } from 'react-paypal-button-v2';
 
 const Payment = ({ amount, planName }) => {
-  const clientId = process.env.CLIENTID;
+  const clientId =
+    process.env.NODE_ENV === 'development'
+      ? process.env.CLIENTID_DEV
+      : process.env.CLIENTID_PROD;
 
   function successPayment(details, data) {
     if (details.status === 'COMPLETED') {
@@ -14,7 +17,6 @@ const Payment = ({ amount, planName }) => {
   return (
     <div className="Payment">
       <h1>Pay with paypal</h1>
-      {/*https://developer.paypal.com/docs/checkout/reference/customize-sdk/*/}
       <PayPalButton
         amount={amount}
         onSuccess={successPayment}
