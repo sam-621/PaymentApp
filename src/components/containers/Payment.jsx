@@ -8,10 +8,22 @@ const Payment = ({ amount, planName }) => {
       ? process.env.CLIENTID_DEV
       : process.env.CLIENTID_PROD;
 
-  function successPayment(details, data) {
+  function onSuccess(details, data) {
     if (details.status === 'COMPLETED') {
       window.location.href = `/${planName}/success`;
     }
+  }
+
+  function createOrder(data, actions) {
+    return actions.order.create({
+      purchase_units: [
+        {
+          amount: {
+            value: amount,
+          },
+        },
+      ],
+    });
   }
 
   return (
@@ -19,7 +31,8 @@ const Payment = ({ amount, planName }) => {
       <h1>Pay with paypal</h1>
       <PayPalButton
         amount={amount}
-        onSuccess={successPayment}
+        onSuccess={onSuccess}
+        createOrder={createOrder}
         options={{
           clientId: clientId,
           currency: 'MXN',
