@@ -11,11 +11,6 @@ const Payment = ({ amount, planName }) => {
     }
   }
 
-  function failurePayment(err) {
-    console.log(err.handleErrors);
-    alert(`An error has occurred in your pay, reload the page and try again`);
-  }
-
   return (
     <div className="Payment">
       <h1>Pay with paypal</h1>
@@ -23,11 +18,9 @@ const Payment = ({ amount, planName }) => {
       <PayPalButton
         amount={amount}
         onSuccess={successPayment}
-        onError={failurePayment}
-        catchError={failurePayment}
         options={{
           clientId: clientId,
-          currency: 'USD',
+          currency: 'MXN',
         }}
       />
     </div>
