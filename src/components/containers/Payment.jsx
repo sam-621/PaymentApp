@@ -22,6 +22,9 @@ const Payment = ({ amount, planName }) => {
           clientId: clientId,
           currency: 'MXN',
         }}
+        style={{
+          label: 'pay',
+        }}
       />
     </div>
   );

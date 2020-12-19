@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../style/container/ProgressSection.css';
 
 import { ProgressBar, ProgressText } from '../molecules/';
 

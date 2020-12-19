@@ -1,7 +1,21 @@
 .Payment {
   margin: 50px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .Payment h1 {
   font-size: 20px;
   color: #70728d;
+}
+.Payment div {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .Payment {
+    margin: 50px 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
 }

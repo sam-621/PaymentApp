@@ -11,3 +11,13 @@
   font-weight: 500;
   color: #70728d;
 }
+@media screen and (min-width: 768px) {
+  .ProgressText {
+    margin: 0 28px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Plans {
+    grid-template-columns: auto auto auto;
+  }
+}

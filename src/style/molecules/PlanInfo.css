@@ -17,3 +17,10 @@
   color: #ffffff;
   font-weight: 700;
 }
+@media screen and (min-width: 768px) {
+  .PlanInfo {
+    padding: 10px 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+}
