@@ -1,4 +1,4 @@
-# My portfolio
+# Payment app
 
 Web application where you can pay with PayPal
 
