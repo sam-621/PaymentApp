@@ -1,0 +1,24 @@
+{
+  "name": "payment-app",
+  "version": "1.0.0",
+  "description": "Web application where you can pay with PayPal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeliosamuel621/PaymentApp.git"
+  },
+  "keywords": [
+    "Payment",
+    "PayPal",
+    "Nextj"
+  ],
+  "author": "Rogelio Samuel <@rogeliosamuel21>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogeliosamuel621/PaymentApp/issues"
+  },
+  "homepage": "https://github.com/rogeliosamuel621/PaymentApp#readme"
+}
