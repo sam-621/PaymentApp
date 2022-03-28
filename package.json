@@ -4,7 +4,10 @@
   "description": "Web application where you can pay with PayPal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/rogeliosamuel621/PaymentApp/issues"
   },
-  "homepage": "https://github.com/rogeliosamuel621/PaymentApp#readme"
+  "homepage": "https://github.com/rogeliosamuel621/PaymentApp#readme",
+  "dependencies": {
+    "next": "^12.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
