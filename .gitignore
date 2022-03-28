@@ -25,4 +25,7 @@ psd
 thumb
 sketch
 
+### Typescript ###
+tsconfig.tsbuildinfo
+
 # End of https://www.toptal.com/developers/gitignore/api/nextjs,react
